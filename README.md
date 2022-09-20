@@ -14,4 +14,4 @@ Está sendo desenvolvido um sistema utilizando arquitetura de microsserviços, i
 ## Funcionalidades
 - Cadastro e Detalhes de Pacote
 - Cadastro de Atualização de Pacote
-- Notificação por E-maol
+- Notificação por E-mail
