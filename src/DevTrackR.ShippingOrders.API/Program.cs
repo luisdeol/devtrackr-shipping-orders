@@ -1,10 +1,12 @@
 ﻿using DevTrackR.ShippingOrders.Application;
+using DevTrackR.ShippingOrders.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder
     .Services
+    .AddInfrastructure()
     .AddApplication();
     
 builder.Services.AddControllers();
