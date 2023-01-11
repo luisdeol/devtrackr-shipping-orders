@@ -25,9 +25,9 @@ namespace DevTrackR.ShippingOrders.Application.InputModels
         public string City { get; set; }
         public string State { get; set; }
         public string Country { get; set; }
-
+        public string ContactEmail { get; set; }
         public DeliveryAddress ToValueObject()
-            => new DeliveryAddress(Street, Number, ZipCode, City, State, Country);
+            => new DeliveryAddress(Street, Number, ZipCode, City, State, Country, ContactEmail);
     }
 
     public class ShippingServiceInputModel {

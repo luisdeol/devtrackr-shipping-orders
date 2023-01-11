@@ -25,6 +25,7 @@ namespace DevTrackR.ShippingOrders.Core.Entities
         public ShippingOrderStatus Status { get; private set; }
         public decimal TotalPrice { get; private set; }
         public List<ShippingOrderService> Services { get; private set; }
+
         
         public void SetupServices(List<ShippingService> services) {
             foreach (var service in services) {
@@ -51,6 +52,11 @@ namespace DevTrackR.ShippingOrders.Core.Entities
             }
 
             return new String(code);
+        }
+
+        public void SetCompleted()
+        {
+            Status = ShippingOrderStatus.Delivered;
         }
     }
 }
