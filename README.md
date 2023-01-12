@@ -1,4 +1,4 @@
-# DevTrackR - Mini-curso Microsserviços com ASP.NET Core
+# DevTrackR - Curso Microsserviços com ASP.NET Core
 
 Está sendo desenvolvido um sistema utilizando arquitetura de microsserviços, implementando funcionalidades relacionadas a envio de pacotes.
 
